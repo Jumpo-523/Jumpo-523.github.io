@@ -6,5 +6,9 @@ export default () => (
     <Link to="/">Home</Link>
     {/* <Header headerText="Contact" /> */}
     <p>Send us a message!</p>
+
+    <h2>
+      ただいま、Gatsby勉強中：ブログのアプデもう少々お待ちください。m__m
+    </h2>
   </div>
 )

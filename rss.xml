@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Nov 2020 11:53:55 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 11 Nov 2020 11:45:55 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[なんの記事なのか？ 仕事していく中で目についたsed, awkの使用例を１個１個理解しながら記録していくメモ記事です。 yamlファイルからenv変数作成shを作成する sedについて sedの仕様 まず、sed…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/linux-commands/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/linux-commands/</guid><content:encoded>&lt;h2&gt;なんの記事なのか？&lt;/h2&gt;
+&lt;p&gt;仕事していく中で目についたsed, awkの使用例を１個１個理解しながら記録していくメモ記事です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#case_one&quot;&gt;&lt;strong&gt;yamlファイルからenv変数作成shを作成する&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;sedについて&lt;/h2&gt;
+&lt;h3&gt;sedの仕様&lt;/h3&gt;
+&lt;p&gt;まず、sedはファイルの中身を走査し、パターンに合う文字列を見つけたら、入れ替える処理を行ってくれるコマンドです。&lt;/p&gt;
+&lt;p&gt;【使用方法】&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;sed -e &amp;#39;s/{{pattern}}/{{repl}}/g;&amp;#39; file_name&lt;/code&gt;と言うコマンドで、file_nameのテキストに&lt;code class=&quot;language-text&quot;&gt;{{pattern}}&lt;/code&gt;があったら&lt;code class=&quot;language-text&quot;&gt;{{repl}}&lt;/code&gt;に入れ替える処理を実行します。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;【ルール】&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;;&lt;/code&gt;で区切られた部分が1パターンになります。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;s/&lt;/code&gt;と&lt;code class=&quot;language-text&quot;&gt;/g&lt;/code&gt;は始まりと&lt;del&gt;終わり&lt;/del&gt;を示す仕様です。（言葉選ぶ）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1029修正)&lt;strong&gt;最後の g はすべてのマッチした文字列を置換することを意味する。 g がなくても全行で置換を実行するが、1行に2つ以上マッチした場合は 1つ目しか置換されない。&lt;a href=&quot;https://hydrocul.github.io/wiki/commands/sed.html&quot;&gt;(link)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;gはglobal のgですね。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;awkについて&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;AWK はフィルタリングによく使用されるコマンドであるが、同様にしてフィルタリングに使用される grep や cut と決定的に違うところは、AWK 自体が独立した一つのスクリプト言語であるということだ&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://shellscript.sunone.me/awk.html&quot;&gt;参照記事&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AWK 自体が独立した一つのスクリプト言語であると言う点が、にわかエンジニアの人にとってとっつきづらいところになると思います。&lt;/p&gt;
+&lt;p&gt;詳しくは、後日追記していきます。&lt;/p&gt;
+&lt;h3&gt;AWKスクリプト組み込み変数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NR: 現在読み込んでいる行の行番号&lt;/li&gt;
+&lt;li&gt;$N: Nフィールド目の内容が設定されている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&quot;case_one&quot;&gt;&lt;/div&gt;
+&lt;h4&gt;利用ケース①：yaml fileをparseして環境変数に入れたい時、&lt;/h4&gt;
+&lt;p&gt;では実際に使用例を見てみます。今、&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml[file.yaml]&quot;&gt;&lt;pre class=&quot;language-yaml[file.yaml]&quot;&gt;&lt;code class=&quot;language-yaml[file.yaml]&quot;&gt;VAR1: XXXXXXXXXX&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;と言うyaml fileがあったときに、&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;VAR1=&amp;quot;XXXXXXXXXX&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;と言う風に変換したいとします。
+この場合、sedを用いてfileの中身を変換することができます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;sed -e &amp;#39;s/:[^:\/\/]/=&amp;quot;/g;s/$/&amp;quot;/g;s/ *=/=/g&amp;#39; file.yaml &amp;gt; file.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上記の処理を1から見ていきましょう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;上記の例の１個目のパターンは、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;{{pattern}}&lt;/code&gt;が &lt;code class=&quot;language-text&quot;&gt;:[^:\/\/]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;=&amp;quot;&lt;/code&gt;が&lt;code class=&quot;language-text&quot;&gt;{{repl}}&lt;/code&gt;に該当します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ですので、&lt;code class=&quot;language-text&quot;&gt;:&lt;/code&gt;を見つけたら（注：&lt;code class=&quot;language-text&quot;&gt;[^:\/\/]&lt;/code&gt;は&lt;code class=&quot;language-text&quot;&gt;://&lt;/code&gt;に関しては無視するよーと言う正規表現の記法です。つまり、urlはそのままurlとして扱い、文字列入れ替えは行わないと言うことです。）&lt;code class=&quot;language-text&quot;&gt;=”&lt;/code&gt;に変えると言うことを意味してます。&lt;/p&gt;
+&lt;p&gt;次のパターンにいきましょう。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;s/$/&amp;quot;/g&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;同じように読み解くと、
+&lt;code class=&quot;language-text&quot;&gt;$&lt;/code&gt;、つまり行の終わりを見つけたら、&lt;code class=&quot;language-text&quot;&gt;&amp;quot;&lt;/code&gt;を付け加えよう！と言うことです。&lt;/p&gt;
+&lt;p&gt;最後のパターンですが、&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;s/ *=/=/g&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;これは、空白文字が&lt;code class=&quot;language-text&quot;&gt;=&lt;/code&gt;の前にあったらその空白を削除する、と言うことを意味しています。&lt;/p&gt;
+&lt;p&gt;苦手意識持っていたsedですが、一個一個見ていくと理解できますね。&lt;/p&gt;
+&lt;p&gt;そして最後に、awkを用いて、&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;VAR1=&amp;quot;XXXXXXXXXX&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;と言うsedの出力文字列に対して “export “と言う文字を付け加えてあげて、 &lt;code class=&quot;language-text&quot;&gt;set_env.sh&lt;/code&gt;に新規で書き込んであげることで完成です。&lt;/p&gt;
+&lt;p&gt;全体としては下記のようなコマンドになります。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;sed -e &amp;#39;s/:[^:\/\/]/=&amp;quot;/g;s/$/&amp;quot;/g;s/ *=/=/g&amp;#39; ./config/config.yml | awk &amp;#39;{print &amp;quot;export &amp;quot; $0 }&amp;#39; &amp;gt; set_env.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;【Reference】&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script&quot;&gt;参照link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/new-beginnings/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named

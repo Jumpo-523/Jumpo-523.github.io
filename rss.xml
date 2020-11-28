@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 26 Nov 2020 12:33:51 GMT</lastBuildDate><item><title><![CDATA[IoT ハッカソンに出てきました。]]></title><description><![CDATA[IoT IOTメーカーズのハッカソンに参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！ 制約 micro:bit…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/iot/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/iot/</guid><pubDate>Wed, 25 Nov 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h1&gt;IoT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Nov 2020 09:10:52 GMT</lastBuildDate><item><title><![CDATA[IoT、こういうこともしたい。]]></title><description><![CDATA[枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察 いびき測定 クライアント：ドラッグストア14…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/idea/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/idea/</guid><pubDate>Mon, 14 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h2&gt;枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察&lt;/h2&gt;
+&lt;h2&gt;いびき測定&lt;/h2&gt;
+&lt;p&gt;クライアント：ドラッグストア140
+こうり
+売り上げ予測・しゅうじで月次の着地どうなるのか？をやっている。&lt;/p&gt;
+&lt;p&gt;予測精度がよく無い。&lt;/p&gt;
+&lt;p&gt;担当者の経験と感でやっている。&lt;/p&gt;
+&lt;p&gt;担当者の方が、
+↓
+シンプルな重回帰モデルでやっている。
+ベータのベータ版
+無償対応
+powerDIに突っ込んで、改善&lt;/p&gt;
+&lt;p&gt;G検定はとっている。&lt;/p&gt;
+&lt;p&gt;データ分析、&lt;/p&gt;
+&lt;p&gt;アドバイザリーを動ける。
+チャットベース、slack base　３０−60
+月で10時間&lt;/p&gt;
+&lt;p&gt;順位人
+・目標精度
+提案書の中では、数字的にどこまでいけば、いいのか？
+売り上げだけジャなくって粗利の予測もしたい。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;施策、効果検証&lt;/li&gt;
+&lt;li&gt;予測&lt;/li&gt;
+&lt;li&gt;進め方：RV・業務イメージ&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[regexに慣れよう。]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/regex/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/regex/</guid><pubDate>Sat, 12 Dec 2020 14:46:37 GMT</pubDate><content:encoded>&lt;p&gt;基本的な構造は知っているけど、、結局言語によってばらつきあるみたいだし、一度体系を学んだ方がいいなぁと思いつつ、出てきたら調べるを繰り返してしまいがちな正規表現…&lt;/p&gt;
+&lt;p&gt;まぁ本腰入れて勉強するまではないとは思います。せめて遭遇したパターンだけでも覚えてすぐ引けるようにしておきたい。&lt;/p&gt;
+&lt;p&gt;そんな思いからこの記事を書いています。そしておそらく書ききることはないので、随時更新を予定しています。&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;[\w\-._]+@[\w\-._]+\.[A-Za-z]+&amp;quot;&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;^(?=.*?[a-zA-Z])(?=.*?\d)(?=.*?[!-/:-@[-`{-~])[!-~]{4,100}$&amp;quot;&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;なげぇなぁ…w&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT ハッカソンに出てきました。]]></title><description><![CDATA[IoT IOTメーカーズのハッカソンに参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！ 制約 micro:bit…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/iot/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/iot/</guid><pubDate>Wed, 25 Nov 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h1&gt;IoT&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://webiotmakers.connpass.com/event/189390/&quot;&gt;IOTメーカーズのハッカソン&lt;/a&gt;に参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！&lt;/li&gt;
 &lt;/ul&gt;

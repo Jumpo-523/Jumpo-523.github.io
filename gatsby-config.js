@@ -12,6 +12,8 @@ module.exports = {
     },
   },
   plugins: [
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -73,5 +75,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/content/pdf/`,
+      },
+    },
+    `gatsby-transformer-pdf`,   
   ],
 }

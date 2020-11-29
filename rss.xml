@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Nov 2020 13:42:56 GMT</lastBuildDate><item><title><![CDATA[IoT、こういうこともしたい。]]></title><description><![CDATA[枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察 いびき測定 クライアント：ドラッグストア14…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/idea/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/idea/</guid><pubDate>Mon, 14 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h2&gt;枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Nov 2020 14:24:06 GMT</lastBuildDate><item><title><![CDATA[IoT、こういうこともしたい。]]></title><description><![CDATA[枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察 いびき測定 歩いて止めるタイマー …なんだか自分のアイデアに独創性を感じないな…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/idea/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/idea/</guid><pubDate>Mon, 14 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h2&gt;枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察&lt;/h2&gt;
 &lt;h2&gt;いびき測定&lt;/h2&gt;
-&lt;p&gt;クライアント：ドラッグストア140
-こうり
-売り上げ予測・しゅうじで月次の着地どうなるのか？をやっている。&lt;/p&gt;
-&lt;p&gt;予測精度がよく無い。&lt;/p&gt;
-&lt;p&gt;担当者の経験と感でやっている。&lt;/p&gt;
-&lt;p&gt;担当者の方が、
-↓
-シンプルな重回帰モデルでやっている。
-ベータのベータ版
-無償対応
-powerDIに突っ込んで、改善&lt;/p&gt;
-&lt;p&gt;G検定はとっている。&lt;/p&gt;
-&lt;p&gt;データ分析、&lt;/p&gt;
-&lt;p&gt;アドバイザリーを動ける。
-チャットベース、slack base　３０−60
-月で10時間&lt;/p&gt;
-&lt;p&gt;順位人
-・目標精度
-提案書の中では、数字的にどこまでいけば、いいのか？
-売り上げだけジャなくって粗利の予測もしたい。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;施策、効果検証&lt;/li&gt;
-&lt;li&gt;予測&lt;/li&gt;
-&lt;li&gt;進め方：RV・業務イメージ&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[regexに慣れよう。（加筆予定）]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/regex/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/regex/</guid><pubDate>Sat, 12 Dec 2020 14:46:37 GMT</pubDate><content:encoded>&lt;p&gt;基本的な構造は知っているけど、、結局言語によってばらつきあるみたいだし、一度体系を学んだ方がいいなぁと思いつつ、出てきたら調べるを繰り返してしまいがちな正規表現…&lt;/p&gt;
+&lt;h2&gt;歩いて止めるタイマー&lt;/h2&gt;
+&lt;p&gt;…なんだか自分のアイデアに独創性を感じないな…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[regexに慣れよう。（加筆予定）]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/regex/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/regex/</guid><pubDate>Sat, 12 Dec 2020 14:46:37 GMT</pubDate><content:encoded>&lt;p&gt;基本的な構造は知っているけど、、結局言語によってばらつきあるみたいだし、一度体系を学んだ方がいいなぁと思いつつ、出てきたら調べるを繰り返してしまいがちな正規表現…&lt;/p&gt;
 &lt;p&gt;まぁ本腰入れて勉強するまではないとは思います。せめて遭遇したパターンだけでも覚えてすぐ引けるようにしておきたい。&lt;/p&gt;
 &lt;p&gt;そんな思いからこの記事を書いています。そしておそらく書ききることはないので、随時更新を予定しています。&lt;/p&gt;
 &lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;[\w\-._]+@[\w\-._]+\.[A-Za-z]+&amp;quot;&lt;/code&gt;&lt;/h3&gt;
@@ -105,9 +82,16 @@ powerDIに突っ込んで、改善&lt;/p&gt;
 見守りサービス自体は陳腐なものであり、利用したセンサモジュールはシンプルなGPIOピンを利用しただけであり、アイデアの独創性・技術力などは評価点が低かった印象です。&lt;/p&gt;
 &lt;p&gt;1位の人たちは、遠隔でも「人の温もりが伝わる」様にデバイス間を同期(*)させるプロダクトを開発していました。&lt;/p&gt;
 &lt;p&gt;IoTデバイスの応用先として、ものとものをつなげるという発想が頭から抜けていて、「見守りサービス」を開発する上で何を見守る（データを集める）べきかしか考えられてなかったなー、と。&lt;/p&gt;
+&lt;p&gt;(*)今後、もっと理解を深めて詳細記載したいと思います。。笑&lt;/p&gt;
 &lt;h1&gt;まとめ&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;ハッカソンに出て貢献しつつ、いろんなスキルを持った人とモノ作りできたので、個人的には大満足です！運営の方々ありがとうございました！！&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LINEの認証機能を利用してweb applicationの認証を作れないか試してみたい。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加えて、UIDを取得してLINEに「X日間お通じが調子よくないみたいですね。」などのアラートをあげられる様にしたいと考えています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;次は、&lt;a href=&quot;https://ledesone.connpass.com/event/193282/&quot;&gt;「ハッタツソン」&lt;/a&gt;に出てideationを磨いていきたいと思います。&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[AWS:1日1機能学習していくぞ]]></title><description><![CDATA[AWSを学び,solution architectを取得したい。 LINEの公式ビジネスアカウントAPIを活用したパーソナル広告の管理システムをdjangoで開発・運用させていただいた時に、ある程度EC2/RDS, Cloudwatch等触ったけど、ROUTE 53、NAT…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/aws/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/aws/</guid><pubDate>Mon, 23 Nov 2020 12:12:37 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;

@@ -33,6 +33,7 @@ export default () => (
     <p>
       <a href="https://qiita.com/j_takurou">qitta</a>
     </p>
+    {/* <p><a src="rouge.pdf"></a></p> */}
  
   </div>
   )

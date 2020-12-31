@@ -1,13 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Nov 2020 14:24:06 GMT</lastBuildDate><item><title><![CDATA[IoT、こういうこともしたい。]]></title><description><![CDATA[枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察 いびき測定 歩いて止めるタイマー …なんだか自分のアイデアに独創性を感じないな…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/idea/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/idea/</guid><pubDate>Mon, 14 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h2&gt;枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[雑食系のエンジニア志望]]></title><description><![CDATA[I built my blog using a starter blog which Gatsby shared.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 31 Dec 2020 04:10:37 GMT</lastBuildDate><item><title><![CDATA[Code for Funabashiの活動を始めました。]]></title><description><![CDATA[目次 Code for Funabashiとは？ 今後どう言うことをしていきたいか？ メンバー募集中 1. Code for Funabashiとは？ Code for Japanのbrigade…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/code-for-funabashi/intro/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/code-for-funabashi/intro/</guid><pubDate>Thu, 31 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h2&gt;目次&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Code for Funabashiとは？&lt;/li&gt;
+&lt;li&gt;今後どう言うことをしていきたいか？&lt;/li&gt;
+&lt;li&gt;メンバー募集中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;1. Code for Funabashiとは？&lt;/h2&gt;
+&lt;p&gt;Code for Japanのbrigadeの一つとして、千葉県船橋市で活動する団体です。
+活動地域の市民や自治体と連携し、地域課題を解決することを目的としています。
+&lt;a href=&quot;https://www.code4japan.org/brigade&quot;&gt;https://www.code4japan.org/brigade&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;私田久保が、2021年から代表を引継ぎ、活動を再開したいと思います。&lt;/p&gt;
+&lt;h2&gt;2. 今後どういうことをしていきたいか？&lt;/h2&gt;
+&lt;p&gt;まずは、主に、下記のことに取り組みたいと考えております。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;プログラミング・ICTに触れられるイベントの開催&lt;/li&gt;
+&lt;li&gt;市役所・商工会の方々を巻き込んでアイデアソン・課題共有会など実施したい&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;1. プログラミング・ICTに触れられるイベントの開催&lt;/h3&gt;
+&lt;p&gt;a. 小・中学生を対象にしたプログラミング教育を推進する上で障害となっている点を洗い出し、教育者不足問題などの解決に寄与したい&lt;br&gt;
+b. 生涯教育的イベントを催し、大人、子供関わらず参加できるイベント&lt;/p&gt;
+&lt;p&gt;最初&lt;strong&gt;a&lt;/strong&gt;のみ実施したいなと考えていましたが、civictech zen千葉の代表の白澤さんとお話し、今流山市で3月に実施計画しているDobotLiteと言うロボットアームを使ったワークショップ（田久保もお手伝いとして参加予定）を船橋市でも実施出来たら面白そうだよねと言っていただけました。&lt;/p&gt;
+&lt;p&gt;ハードウェア・IoTなど、新しい技術、普段の業務でなかなか触ることのないものに触れるイベントを増やしていけば、船橋在住のエンジニアとお近づきになれるチャンスだな！とお話してて思いました！&lt;/p&gt;
+&lt;p&gt;自分もエンジニアとして技術力を向上しつつ、いやむしろ実施しながら向上ができればいいな…笑&lt;/p&gt;
+&lt;p&gt;ぜひ開催したいイベントです…!&lt;/p&gt;
+&lt;h3&gt;2. 市役所・商工会の方々を巻き込んでアイデアソン&lt;/h3&gt;
+&lt;p&gt;civictechを進める上で一番大事なのは、オープンかつフラットに、市民の方々、市政を執り行う方々が欲しいものを知ることだなと思います。
+なので、市民の方々に「ICTでどんなことができるのか」を知ってもらいつつ、生活の中で何を課題に感じているか？などをヒアリングできる場として、いろんな人を巻き込んだアイデアソンを実施したいと考えています。&lt;/p&gt;
+&lt;h2&gt;最後に&lt;/h2&gt;
+&lt;p&gt;上で考えている企画は、まだまだ具体化出来ていない青写真でしかありません。
+今後、メンバーの方・市役所の方々の協力を仰ぎながら、形にしていきます。&lt;/p&gt;
+&lt;p&gt;まだまだ手弁当で模索していくことが多いと思います。今後いろいろなイベントを開催していきますので、ご興味ある方はぜひお声がけよろしくお願い致します。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT、こういうこともしたい。]]></title><description><![CDATA[IoT…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/idea/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/idea/</guid><pubDate>Mon, 14 Dec 2020 12:12:37 GMT</pubDate><content:encoded>&lt;p&gt;IoTハッカソンに参加して、ハードウェアの開発知見がないことを自覚したので、今後時間が出来たら開発したいものリストを作成しておく。&lt;/p&gt;
+&lt;h2&gt;枕に加圧センサーを仕込んで、寝相＋圧の変化具合を観察&lt;/h2&gt;
 &lt;h2&gt;いびき測定&lt;/h2&gt;
 &lt;h2&gt;歩いて止めるタイマー&lt;/h2&gt;
-&lt;p&gt;…なんだか自分のアイデアに独創性を感じないな…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[regexに慣れよう。（加筆予定）]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/regex/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/regex/</guid><pubDate>Sat, 12 Dec 2020 14:46:37 GMT</pubDate><content:encoded>&lt;p&gt;基本的な構造は知っているけど、、結局言語によってばらつきあるみたいだし、一度体系を学んだ方がいいなぁと思いつつ、出てきたら調べるを繰り返してしまいがちな正規表現…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;寝坊防止の策として歩くことで止めることができるアラームアプリを作りたい。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;30分経っても起きない場合、関係者（例えば、遊びの予定を入れていた友達、MTGの予定のある上司など）にまだ寝てます…申し訳ありません、と通知してくれる機能を付ける。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;連絡さすまい、と言うお気持ちが働き、起きるためのコミットメント装置として機能してくれるのではないか？と考えている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;今声かけて大丈夫そうか？&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- リモートワークをしていると、「今声かけたら...」と相談するのにためらう瞬間が多々ある。
+- 定期的にカメラで姿勢を推定し業務中かいなかをprofileに表示できる仕組み or google calendarとslackを連携し、今作業中or notがslackでわかるとありがたい。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;…なんだか自分のアイデアに独創性を感じないな…&lt;/p&gt;
+&lt;p&gt;発達そんに参加したことで、当事者意識の重要性を実感している。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[regexに慣れよう。（加筆予定）]]></title><description><![CDATA[…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/regex/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/regex/</guid><pubDate>Sat, 12 Dec 2020 14:46:37 GMT</pubDate><content:encoded>&lt;p&gt;基本的な構造は知っているけど、、結局言語によってばらつきあるみたいだし、一度体系を学んだ方がいいなぁと思いつつ、出てきたら調べるを繰り返してしまいがちな正規表現…&lt;/p&gt;
 &lt;p&gt;まぁ本腰入れて勉強するまではないとは思います。せめて遭遇したパターンだけでも覚えてすぐ引けるようにしておきたい。&lt;/p&gt;
 &lt;p&gt;そんな思いからこの記事を書いています。そしておそらく書ききることはないので、随時更新を予定しています。&lt;/p&gt;
 &lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;[\w\-._]+@[\w\-._]+\.[A-Za-z]+&amp;quot;&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;???&lt;/p&gt;
 &lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;^(?=.*?[a-zA-Z])(?=.*?\d)(?=.*?[!-/:-@[-`{-~])[!-~]{4,100}$&amp;quot;&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;なげぇなぁ…w&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT ハッカソンに出てきました。]]></title><description><![CDATA[IoT IOTメーカーズのハッカソンに参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！ 制約 micro:bit…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/iot/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/iot/</guid><pubDate>Wed, 25 Nov 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h1&gt;IoT&lt;/h1&gt;
+&lt;h3&gt;HTML文からテキストデータを抽出する正規表現&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Big Queryの勉強していたら見かけた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ymym3412.hatenablog.com/entry/2020/12/24/001923&quot;&gt;https://ymym3412.hatenablog.com/entry/2020/12/24/001923&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;select
+  regexp_replace(strings, &amp;#39;&amp;lt;(&amp;quot;.*?&amp;quot;|\&amp;#39;.*?\&amp;#39;|[^\&amp;#39;&amp;quot;])*?&amp;gt;&amp;#39;, &amp;#39;&amp;#39;) as clearned
+from
+  texts&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;(&amp;quot;.*?&amp;quot;|\&amp;#39;.*?\&amp;#39;|[^\&amp;#39;&amp;quot;])*?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;A|B&lt;/code&gt;はパターンのOR結合を表す。&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;()&lt;/code&gt;で囲んで１パターンとして見做す&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;.*?は最左最短マッチと呼ばれている&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;&amp;lt;&amp;lt;hoge&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;に対して&amp;#x3C;.*?&gt;をパターンマッチさせる際に行われる実際の処理の流れがとてもわかりやすかった。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;         # &amp;lt;までマッチ
+&amp;lt;&amp;lt;        # &amp;lt;&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;        # &amp;lt;.までマッチ
+&amp;lt;&amp;lt;&amp;lt;       # &amp;lt;.&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;&amp;lt;       # &amp;lt;..までマッチ
+&amp;lt;&amp;lt;&amp;lt;h      # &amp;lt;..&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;&amp;lt;h      # &amp;lt;...までマッチ
+&amp;lt;&amp;lt;&amp;lt;ho     # &amp;lt;...&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;&amp;lt;ho     # &amp;lt;....までマッチ
+&amp;lt;&amp;lt;&amp;lt;hog    # &amp;lt;....&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;&amp;lt;hog    # &amp;lt;.....までマッチ
+&amp;lt;&amp;lt;&amp;lt;hoge   # &amp;lt;.....&amp;gt;のマッチに失敗、.の数を増やしてリトライ
+&amp;lt;&amp;lt;&amp;lt;hoge   # &amp;lt;......までマッチ
+&amp;lt;&amp;lt;&amp;lt;hoge&amp;gt;  # &amp;lt;......&amp;gt;までマッチ&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;参考文献(&lt;a href=&quot;https://qiita.com/anqooqie/items/191ad215e93237c77811&quot;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;要するに、 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;&lt;/code&gt;を見つけたら、最初の&lt;code class=&quot;language-text&quot;&gt;&amp;gt;&lt;/code&gt;を見つけるまでマッチし続けてくれると言うことになりますね。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、&lt;a href=&quot;https://qiita.com/honeydaisuki/items/d2a38cef1b95fd347fa4&quot;&gt;https://qiita.com/honeydaisuki/items/d2a38cef1b95fd347fa4&lt;/a&gt; の記事のコメントに詳細が解説されていました。m__m&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;「.」は「任意の1文字」に
+「*」は「直前のパターンの0回以上の最長連続」に
+「*?」は「直前のパターンの0回以上の最短連続」にマッチします。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;つまり…?&lt;/h3&gt;
+&lt;p&gt;&amp;#x3C;&gt;で覆われた、文字列, 及び、任意の文字(’：シングルクオーテーションを除く)に対してマッチして、空文字と置き換えますよ。と言うこと。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT ハッカソンに出てきました。]]></title><description><![CDATA[IoT IOTメーカーズのハッカソンに参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！ 制約 micro:bit…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/iot/iot/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/iot/iot/</guid><pubDate>Wed, 25 Nov 2020 12:12:37 GMT</pubDate><content:encoded>&lt;h1&gt;IoT&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://webiotmakers.connpass.com/event/189390/&quot;&gt;IOTメーカーズのハッカソン&lt;/a&gt;に参加して、「地域を超えた触れ合い」をテーマにIoTハッカソンをしました！&lt;/li&gt;
 &lt;/ul&gt;

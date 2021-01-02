@@ -1,12 +1,18 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
+// ArticleType
+// slugと、postsを受け取り、表示するポストのフィルタリングを実施する。
+
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  const [articleType, setArticle_type] = useState('it')
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
@@ -26,7 +32,20 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <div class="sidenav">
+       <p class="sidenav-p"> Menu </p> 
+        <ul>
+          <li class="nav-item active"><Link to="/">MAIN PAGE</Link></li>
+          <li class="nav-item"><a href="#"><Link to="/contact/">ABOUT  ME</Link></a></li>
+          <li class="nav-item"><a href="#"><Link to="/contact/">code for Funabashiに関して</Link></a></li>
+          {/* <li class="nav-item"><a href="#">NEWS</a></li>
+          <li class="nav-item"><a href="#">TOPICS</a></li>
+          <li class="nav-item"><a href="#">DOCS</a></li>
+          <li class="nav-item"><a href="#">BLOG</a></li> */}
+        </ul>
+      </div>
       <Bio />
+      {/* <p>{ articleType }</p> */}
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

@@ -25,10 +25,6 @@ const Layout = ({ location, title, children }) => {
 
 
       <header className="global-header">{header}
-        <div class="sidenav">
-          <Link to="/">Login Page</Link> <span>  </span>
-          <Link to="/contact/">Contact</Link>
-        </div>
       </header>
       <main>{children}</main>
       <footer>

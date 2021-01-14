@@ -8,12 +8,31 @@ import SEO from "../components/seo"
 
 // ArticleType
 // slugと、postsを受け取り、表示するポストのフィルタリングを実施する。
-
+const themes =  [
+  {
+    value: 'iot',
+    displayName: 'IOT関連',
+  },
+  {
+    value: 'aws',
+    displayName: 'AWS関連',
+  },
+];
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const [articleType, setArticle_type] = useState('it')
+  const [articleType, setArticle_type] = useState('iot')
   const posts = data.allMarkdownRemark.nodes
+  const [posts_, setPosts_] = useState(posts)
+  const changeBlogList = (e) => {
+    setArticle_type({ articleType: e.target.value});
+    // alert(e.target.value);
+    debugger;
+    // これ以外にやり方あるらしい。tipをみる。
+    setPosts_({ posts_: posts.filter(post => {post.fields.slug.includes(e.target.value)})})
+    // post.fields.slug.includes(e.target.value)})の中身がないぞ？
+    // alert(posts.filter(post => {post.fields.slug.includes(e.target.value)}));
+  }
 
   if (posts.length === 0) {
     return (
@@ -44,17 +63,21 @@ const BlogIndex = ({ data, location }) => {
           <li class="nav-item"><a href="#">BLOG</a></li> */}
         </ul>
       </div>
-      <ul>
-      {/* <li class="nav-item active"><Link to="/">About IT</Link></li> */}
-      </ul>
+      {/* これみて実装する・https://github.com/YPlan/react-pulldown/blob/master/src/components/pulldown-close.js */}
       <Bio />
+
+      <select name="theme" onChange={changeBlogList}>
+        {themes.map(theme =>{
+          return (<option value={theme.value}>{theme.displayName}</option>)
+        }
+          )}
+      </select>
+
+
       {/* <p>{ articleType }</p> */}
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {posts_.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          if (!post.fields.slug.includes(articleType)){
-            return
-          }
 
           return (
             <li key={post.fields.slug}>

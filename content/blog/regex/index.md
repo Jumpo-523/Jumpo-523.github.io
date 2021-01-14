@@ -10,6 +10,14 @@ date: "2020-12-12T14:46:37.121Z"
 そんな思いからこの記事を書いています。そしておそらく書ききることはないので、随時更新を予定しています。
 
 
+## まずはここから
+
+- この動画をみて勉強しました。基礎的な内容はここで把握できます！
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T7Y2kfMm7kk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ### ```"[\w\-._]+@[\w\-._]+\.[A-Za-z]+"```
 ???
 
